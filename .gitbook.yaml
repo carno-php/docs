@@ -1,0 +1,5 @@
+root: ./
+
+structure:
+  readme: ./zh-CN/README.md
+  summary: ./zh-CN/SUMMARY.md
