@@ -13,14 +13,14 @@
 请求跳转
 
 * 服务正在 Shutdown，不接受新请求
-* 返回 Location 重复当前 URL(http://n.g.s/invoke/service)，C 端通过名称筛选其他服务节点
+* 返回 Location 重复当前 URL `http://n.g.s/invoke/service`，客户端通过名称筛选其他服务节点
 
 ## 400
 
 请求错误
 
 * HTTP 请求不规范（RPC 下只能 POST）
-* URL 不规范（路径格式 /$cmd[invoke]/service/method）
+* URL 不规范（路径格式 /`[invoke]`/service/method）
 * Payload 解析不了
 * 等等
 
