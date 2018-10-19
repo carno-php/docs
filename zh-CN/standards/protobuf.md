@@ -14,7 +14,7 @@ proto3
 > 大驼峰法是首字母大写的驼峰，例如：HelloWorld
 > 小驼峰法是首字母小写的驼峰，例如：helloWorld
 
-1. package 使用三段以点分隔（```namespace.group.server```）
+1. package 使用三段以点分隔（`namespace.group.server`）
     * 各段使用 **小驼峰法** 命名；例如：biz.foo.bar
 2. message 和 service 名称使用 **大驼峰法**；例如：AccessInfo
 3. message 结构字段和 rpc 使用 **小驼峰法**；例如：appId, getUser
@@ -47,8 +47,8 @@ proto3
 1. rpc 的 Request/Response 可以允许空结构（不包含任何字段），比如接口不需要任何输入和返回
 2. 一个 proto 文件内 **只能** 存在一个 service，多个需要拆分到不同的 proto 文件中
     > 建议 service 的名称和 proto 文件名保持一致；
-    > 例如：```search.proto``` 里只有一个 ```service Search```
-3. 不同 service 共用的 message 使用单独文件放置，比如放在 ```your/entity/some.proto```
+    > 例如：`search.proto` 里只有一个 `service Search`
+3. 不同 service 共用的 message 使用单独文件放置，比如放在 `your/entity/some.proto`
 
 ### 错误代码
 
@@ -67,7 +67,7 @@ proto3
 
 ## 书写规范
 
-* 缩进：**4** 个空格
+* 缩进：__4__ 个空格
 
 ### proto 文件头
 
