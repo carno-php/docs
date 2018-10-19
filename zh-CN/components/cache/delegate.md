@@ -4,7 +4,7 @@
 
 ```php
 $data = yield $this->cache->delegate('some-key', function () {
-    return yield \Carno\HTTP\Client::get('http://www.baidu.com/');
+    return yield \Carno\HTTP\Client::get('http://httpbin.org/get');
 }, 30); // 每隔30秒主动进行刷新
 var_dump($data);
 ```

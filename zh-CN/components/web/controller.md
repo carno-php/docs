@@ -65,7 +65,7 @@ class Hello extends Based
             // 默认 302 跳转
             return $this->redirect('http://example.com');
             // 指定 301 跳转 $permanently
-            return $this->redirect('http://httpbin.org', true);
+            return $this->redirect('http://example.com', true);
         }
 
         // 直接返回 Response 对象

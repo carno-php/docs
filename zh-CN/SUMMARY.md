@@ -7,18 +7,23 @@
 
 ## 组件列表
 
-* [实例管理](components/container/README.md)
+* 实例管理
   * [依赖注入](components/container/di.md)
-* [Web Server](components/web/README.md)
+* HTTP 服务端
   * [上手](components/web/quickstart.md)
   * [路由](components/web/router.md)
   * [控制器](components/web/controller.md)
   * [扩展](components/web/extensions.md)
+* HTTP 客户端
+  * [命令支持](components/http/client/methods.md)
+  * [文件上传](components/http/client/uploading.md)
+  * [自动连接池](components/http/client/pool-ka.md)
+  * [WS Upgrade](components/http/client/ws-upgrade.md)
 * [Redis](components/redis/README.md)
 * [缓存](components/cache/README.md)
   * [后端驱动](components/cache/drivers.md)
   * [自动刷新](components/cache/delegate.md)
-* [数据库](components/database/README.md)
+* 数据库
   * [创建实例](components/database/initialize.md)
   * [执行SQL](components/database/crud.md)
   * [事务操作](components/database/transaction.md)
@@ -30,6 +35,20 @@
     * [分页](components/mysql/paginator.md)
     * 扩展
       * [自动时间戳](components/mysql/features/timestamps.md)
+* 消息队列
+  * [NSQ](components/nsq/README.md)
+    * [集群模式](components/nsq/cluster.md)
+* 配置中心
+  * [加载器](components/config/loaders.md)
+  * [读取配置](components/config/read.md)
+  * [变化通知](components/config/watch.md)
+  * [对象绑定](components/config/bind.md)
+* 日志输出
+  * [动态配置](components/log/config.md)
+  * [输出方式](components/log/outputs.md)
+  * [支持格式](components/log/formats.md)
+  * 日志复制
+    * [Log.IO](components/log/replicas/logio.md)
 
 ## 设计规范
 
