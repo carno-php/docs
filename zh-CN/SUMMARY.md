@@ -42,10 +42,8 @@
   * [加载方式](components/config/loaders.md)
   * [变化通知](components/config/watching.md)
   * [对象绑定](components/config/bind.md)
-* 日志输出
+* [日志输出](components/log/README.md)
   * [动态配置](components/log/config.md)
-  * [输出方式](components/log/outputs.md)
-  * [支持格式](components/log/formats.md)
   * 日志复制
     * [Log.IO](components/log/replicas/logio.md)
 
