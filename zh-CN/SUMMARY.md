@@ -21,7 +21,7 @@
   * [WS Upgrade](components/http/client/ws-upgrade.md)
 * [Redis](components/redis/README.md)
 * [缓存](components/cache/README.md)
-  * [后端驱动](components/cache/drivers.md)
+  * [存储方式](components/cache/drivers.md)
   * [自动刷新](components/cache/delegate.md)
 * 数据库
   * [创建实例](components/database/initialize.md)
@@ -38,10 +38,9 @@
 * 消息队列
   * [NSQ](components/nsq/README.md)
     * [集群模式](components/nsq/cluster.md)
-* 配置中心
-  * [加载器](components/config/loaders.md)
-  * [读取配置](components/config/read.md)
-  * [变化通知](components/config/watch.md)
+* [配置中心](components/config/README.md)
+  * [加载方式](components/config/loaders.md)
+  * [变化通知](components/config/watching.md)
   * [对象绑定](components/config/bind.md)
 * 日志输出
   * [动态配置](components/log/config.md)
