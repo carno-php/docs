@@ -42,10 +42,12 @@
   * [加载方式](components/config/loaders.md)
   * [变化通知](components/config/watching.md)
   * [对象绑定](components/config/bind.md)
-* [日志输出](components/log/README.md)
-  * [动态配置](components/log/config.md)
+* [日志](components/log/README.md)
+  * [配置项](components/log/config.md)
   * 日志复制
     * [Log.IO](components/log/replicas/logio.md)
+* [监控](components/monitor/README.md)
+  * [业务接入](components/monitor/using.md)
 
 ## 设计规范
 
