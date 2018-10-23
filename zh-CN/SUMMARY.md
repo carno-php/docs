@@ -2,14 +2,19 @@
 
 ## 基础信息
 
-* [运行](runtime/README.md)
+* 运行时
   * [环境依赖](runtime/env.md)
+
+## 服务开发
+
+* Protobuf
+  * [生成 SDK](development/protobuf/sdk-gen.md)
 
 ## 组件列表
 
 * 实例管理
   * [依赖注入](components/container/di.md)
-* HTTP 服务端
+* Web 服务端
   * [上手](components/web/quickstart.md)
   * [路由](components/web/router.md)
   * [控制器](components/web/controller.md)
@@ -19,6 +24,10 @@
   * [文件上传](components/http/client/uploading.md)
   * [自动连接池](components/http/client/pool-ka.md)
   * [WS Upgrade](components/http/client/ws-upgrade.md)
+* RPC 服务端
+  * [上手](components/hrpc/quickstart.md)
+* RPC 客户端
+  * [使用](components/hrpcc/usages.md)
 * [Redis](components/redis/README.md)
 * [缓存](components/cache/README.md)
   * [存储方式](components/cache/drivers.md)

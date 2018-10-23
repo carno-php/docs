@@ -15,3 +15,8 @@
 
 * bcmath / 使用 NSQ 时
 * ast / 使用 Live Reloading 时
+
+## Live Reloading
+
+* Linux 下安装 `inotify-tools`
+* MacOS 下安装 `fsevents-tools`

@@ -8,6 +8,8 @@
 composer create-project carno-php/skel-httpd my-web-server
 ```
 
+> 国内加速 <https://packagist.laravel-china.org>
+
 ## 启动应用
 
 先进入到 `my-web-server` 目录，然后执行
