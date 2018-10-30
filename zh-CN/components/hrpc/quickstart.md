@@ -2,7 +2,7 @@
 
 > 服务的实现依赖 Protobuf SDK，查看 [SDK 生成器](../../development/protobuf/sdk-gen.md)
 
-## 使用 composer 来创建应用
+## 使用 composer 来创建应用
 
 ```sh
 composer create-project carno-php/skel-rpcd my-service
