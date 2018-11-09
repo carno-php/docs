@@ -19,6 +19,7 @@ proto3
 
 1. package 使用三段以点分隔（`namespace.group.server`）
     * 各段使用 **小驼峰法** 命名；例如：biz.foo.bar
+    * **各段尽量只使用一个单词来表示**
 2. message 和 service 名称使用 **大驼峰法**；例如：AccessInfo
 3. message 结构字段和 rpc 使用 **小驼峰法**；例如：appId, getUser
 4. enum 约定
