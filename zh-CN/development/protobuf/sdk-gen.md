@@ -36,4 +36,9 @@ protoc --plugin=protoc-gen-custom=$(which protoc-gen) --custom_out=. hello.proto
 
 ## 使用 Docker
 
-> TODO
+```sh
+docker run --rm -it -v $(pwd):/protobufs carno/protoc-gen OUTPUT INPUT
+```
+
+1. OUTPUT 为 SDK 的输出目录，不存在时会自动创建（路径需要先挂载到容器中）
+2. INPUT 为需要编译的文件或者目录，指定目录时会遍历目录下所有的 .proto 文件并编译
