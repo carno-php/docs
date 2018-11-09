@@ -37,6 +37,7 @@
   * [执行SQL](components/database/crud.md)
   * [事务操作](components/database/transaction.md)
   * SQL Builder
+    * [引用](components/mysql/use.md)
     * [查询](components/mysql/query.md)
     * [计算](components/mysql/calc.md)
     * [汇聚](components/mysql/merge.md)
