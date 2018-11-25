@@ -30,10 +30,14 @@ class Storage extends Cluster
 > 参考 [依赖注入](../container/di.md)
 
 ```php
-/**
- * @inject // 启用依赖注入
- * @see Storage
- * @var \Redis
- */
-private $storage = null;
+use App\Redis\Storage;
+
+class Obj
+{
+    /**
+     * @inject
+     * @var Storage
+     */
+    private $storage = null;
+}
 ```
