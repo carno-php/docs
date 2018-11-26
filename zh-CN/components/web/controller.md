@@ -57,6 +57,11 @@ class Hello extends Based
         // 类型转为 bool，默认值 true
         // 输入 "true", "yes" 时返回 true，"false", "no" 时返回 false
         $this->request()->post()->boolean('bool', true);
+
+        // 获取客户端地址
+        $addr = $this->remote()->peer();
+        $addr->host(); // 对端 IP 地址，优先获取自 "X-Forwarded-For"
+        $addr->port(); // 远程端口
     }
 
     public function result()
